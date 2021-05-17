@@ -4,14 +4,14 @@
 {
 "name": "AppGestionnaire",
 "short name": "AppGest",
-"start url": ".",
+"start url": "https://senghorsaldes.github.io/MyApp/",
 "display": "standalone",
 "background color": "#fff",
 "description": "a new app.",
 
 "icons": [
     {
-      "src": "/images/logo",
-      "type": "images/png",
+      "src": "./images/logo.png",
+      "type": "image/png",
       "sizes": "172x47"}]
 }
