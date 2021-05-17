@@ -3,10 +3,10 @@
 
 {
 "name": "AppGestionnaire",
-"short name": "AppGest",
-"start url": "/",
+"short_name": "monappli",
+"start_url": "/",
 "display": "standalone",
-"background color": "#fff",
+"background_color": "#fff",
 "description": "a new app.",
 
 "icons": [
