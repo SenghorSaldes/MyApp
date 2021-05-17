@@ -15,6 +15,17 @@
     
 </head>
 <body>
+<script>
+    if('serviceworker' in navigator){
+        navigator.serviceWorker.register('./JS/service-worker.js')
+    }
+</script>
+
+
+
+
+
+
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
