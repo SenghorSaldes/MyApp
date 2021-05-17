@@ -4,9 +4,9 @@
 {
 "name": "AppGestionnaire",
 "short name": "AppGest",
-"start url": "/",
+"start url": ".",
 "display": "standalone",
-"background color": "#fff",
+"background_color": "white",
 "description": "a new app.",
 
 "icons": [
