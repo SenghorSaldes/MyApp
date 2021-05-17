@@ -6,7 +6,7 @@
 "short_name": "monappli",
 "start_url": "/",
 "display": "standalone",
-"background_color": "#fff",
+"background_color": "white",
 "description": "a new app.",
 
 "icons": [
