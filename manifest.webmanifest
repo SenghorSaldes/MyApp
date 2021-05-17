@@ -5,6 +5,7 @@
 "name": "AppGestionnaire",
 "short_name": "monappli",
 "start_url": "/",
+"scope": "/",
 "display": "standalone",
 "background_color": "white",
 "description": "a new app.",
