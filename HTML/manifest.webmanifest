@@ -4,7 +4,7 @@
 {
 "name": "AppGestionnaire",
 "short name": "AppGest",
-"start url": "./index.html",
+"start url": "/",
 "display": "standalone",
 "background color": "#fff",
 "description": "a new app.",
