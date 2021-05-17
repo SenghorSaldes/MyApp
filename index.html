@@ -18,7 +18,7 @@
 <body>
 <script>
     if(navigator.serviceWorker){
-        navigator.serviceWorker.register('./service-worker.js', {scope: './'})
+        navigator.serviceWorker.register('/service-worker.js', {scope: '/'})
     }
     var $html = document.documentElement
   var $target = document.getElementById('drop-target')
