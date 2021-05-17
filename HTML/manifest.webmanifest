@@ -1,0 +1,17 @@
+
+
+
+{
+"name": "AppGestionnaire",
+"short name": "AppGest",
+"start url": "/index.html",
+"display": "standalone",
+"background color": "#fff",
+"description": "a new app.",
+
+"icons": [
+    {
+      "src": "./icon.png",
+      "type": "image/png",
+      "sizes": "1024x280"}]
+}
