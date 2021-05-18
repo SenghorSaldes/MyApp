@@ -73,8 +73,9 @@ $(document).ready(function(){
 
 
 
-// Counting
+// Compteur personnes
 var counter = localStorage.getItem('counter');
+
 var initialValue = 0;
 
 if (!counter) {
@@ -120,10 +121,12 @@ $('.increase').on('click', function() {
     localStorage.setItem('counter', counter);
     renderCounter();
   })
-  
-  
-    function clearAll() {
-        window.localStorage.clear();
-        counter = initialValue;
-        renderCounter();
-      }
+
+
+  function clearAll() {
+    window.localStorage.clear();
+    counter = initiValue;
+    renderCounter();
+  }
+
+      

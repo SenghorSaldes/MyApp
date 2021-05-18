@@ -87,12 +87,12 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(255, 255, 255);
     
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: black;
+    background: white;
 }
 .navbar .max-width{
     display: flex;
@@ -143,7 +143,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: #000;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -157,7 +157,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: #000;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -181,7 +181,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background-color: #fff;
+    background-color: #111;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -237,11 +237,11 @@ section .title::after{
 }
 
 .home .home-content .count_button p {
-    color: black;
+    color: white;
     position: relative;
     top: -20px;
 }
-.increase, .decrease{
+.increase, .decrease, .increase_velo, .decrease_velo{
     cursor: pointer;
     position:relative;
     width: auto;
@@ -249,8 +249,8 @@ section .title::after{
     color:#ecf0f1;
     text-decoration:none;
     border-radius:5px;
-    border:solid 3px rgb(43, 107, 184);
-    background:#000;
+    border:solid 3px #222;
+    background: #222;
     text-align:center;
     padding:16px 18px 14px;
     margin: 12px;
@@ -267,8 +267,8 @@ section .title::after{
     color:#ecf0f1;
     text-decoration:none;
     border-radius:5px;
-    border:solid 3px rgb(43, 107, 184);
-    background:#000;
+    border:solid 3px #222;
+    background:#222;
     text-align:center;
     padding:4px 8px 5px;
     margin: 12px;
@@ -279,8 +279,18 @@ section .title::after{
 
 
   }
-  #counter {
+  #counter, #counter_velo {
     background: #000;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border:solid 3px rgb(43, 107, 184);
+    color:#ecf0f1;
+    
+  }
+  #counter_velo {
+    background: #222;
     border-radius: 5px;
     font-size: 40px;
     margin-top: 20px;
@@ -289,9 +299,12 @@ section .title::after{
     
   }
 /* about section styling */
-.about .title::after{
-    content: "who i am";
+
+.about{
+    
+    background-color: #111;
 }
+
 .about .about-content .left{
     width: 45%;
 }
@@ -312,8 +325,9 @@ section .title::after{
 .about .about-content .right .text span{
     color: crimson;
 }
-.about .about-content .right p{
+.about .about-content p{
     text-align: justify;
+    color: #fff;
 }
 .about .about-content .right a{
     display: inline-block;

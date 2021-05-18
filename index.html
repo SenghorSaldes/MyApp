@@ -46,9 +46,9 @@
         <div class="max-width">
             <div class="logo"><img src="./images/logo.png" alt="logo" /></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Garderie</a></li>
-                <li><a href="#about" class="menu-btn">Inventaires</a></li>
-                <li><a href="#Inventaires" class="menu-btn">Arrétés</a></li>
+                <li><a href="#home" class="menu-btn">Compteur</a></li>
+                <li><a href="#about" class="menu-btn">Compteur Vélo</a></li>
+                <li><a href="#services" class="menu-btn">Sensibilisation</a></li>
                 <li><a href="#Contacts" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -57,13 +57,12 @@
         </div>
     </nav>
 
-    <!-- home section start -->
+    <!-- Compteur  -->
     <section class="home" id="home">
       <div class="max-width">
-          <div class="row">
             <div class="home-content">
                <div class="count_button">
-                <p> Compteur fréquentation</p>
+                 <p>Compteur fréquentation</p>
                 <button class="increase"> + </button> 
                 <button class="decrease"> - </button> 
                   <div id="counter">0</div>
@@ -72,19 +71,59 @@
             </div>
           </div>
       </div>
-    </section>
+    </section>  
   
 
-     <!-- about section start -->
+     <!-- Compteur vélo -->
   <section class="about" id="about">
-    <div class="max-width">
-        <h2 class="title">About me</h2>
+    <div class="max-width">  
         <div class="about-content">
-            <div class="column left">
+              <div class="count_button">
+                <p>Compteur fréquentation vélo</p>
+                <button class="increase_velo"> + </button> 
+                <button class="decrease_velo"> - </button> 
+                  <div id="counter_velo">0</div>
+                  <br><button class="reset" onclick="clearAllContent()"> reset </button> 
               
             </div>
             
               </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Sensibilisation  -->
+   <!-- services section start -->
+   <section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">Sensibilisation</h2>
+        <div class="serv-content">
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="text">Sensi_chien</div>
+                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="text">Sensi_générale</div>
+                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Sensi_vélo</div>
+                    
+                </div>
+                
+            </div>
+            
+           </div>
+           <div id="counter">0</div>
         </div>
     </div>
 </section>
@@ -95,6 +134,7 @@
     </footer>
 
     <script src="./JS/script.js"></script>
+    <script src="./JS/script2.js"></script>
     
 </body>
 </html>
