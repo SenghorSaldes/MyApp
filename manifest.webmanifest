@@ -12,7 +12,7 @@
 
 "icons": [
     {
-      "src": "./images/icon.png",
+      "src": "./icon.png",
       "type": "image/png",
       "purpose": "any",
       "sizes": "220x220"}]
