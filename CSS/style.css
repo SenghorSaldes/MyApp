@@ -99,6 +99,13 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
+
+
+.navbar .max-width img {
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
