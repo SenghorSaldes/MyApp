@@ -129,4 +129,42 @@ $('.increase').on('click', function() {
     renderCounter();
   }
 
+
+  function test(){
+    console.log("trouducl");
+  }
+
+
+
+// DOGCOUNTER 
+var dog = localStorage.getItem('counter_dog');
+var firstValue = 0;
+var MyObj, x;
       
+MyObj = { "chien": 30, "Générale": 20, "Velo": 12}
+x = MyObj["chien"]
+document.getElementById("counter_dog").innerHTML = x; 
+
+
+if (!dog) {
+  dog = initialValue;
+} else {
+  dog = parseInt(dog);
+}
+
+function renderDogCounter() {
+  $('#dog').html(dog);
+}
+
+$('.box').on('click', function() {
+  dog++;
+
+  if (counter === 0) {
+    dog = initialValue;
+  }
+  
+  localStorage.setItem('dog', dog);
+  renderDogCounter();
+})
+
+  renderDogCounter();
