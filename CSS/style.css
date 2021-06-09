@@ -207,7 +207,7 @@ section .title::after{
     position: relative;
     top: -20px;
 }
-.increase, .decrease, .increase_velo, .decrease_velo{
+.increase, .decrease, .increase_velo, .decrease_velo, .increase_dog{
     cursor: pointer;
     position:relative;
     width: auto;
@@ -347,7 +347,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: rgb(43, 107, 184);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -357,7 +357,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: rgb(43, 107, 184);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -387,7 +387,7 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: blue;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -426,7 +426,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: white;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -458,7 +458,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: rgb(43, 107, 184);
 }
 .teams .carousel .card .box{
     display: flex;
@@ -480,7 +480,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid white;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{

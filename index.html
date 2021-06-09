@@ -34,17 +34,12 @@
 </script>
 
 
-
-
-
-
-
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><img src="./images/logo.png" alt="logo" /></div>
+                        <div class="logo"><img src="./images/logo.png" alt="logo" /></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Compteur</a></li>
                 <li><a href="#about" class="menu-btn">Compteur Vélo</a></li>
@@ -60,13 +55,14 @@
     <!-- Compteur  -->
     <section class="home" id="home">
       <div class="max-width">
+          
             <div class="home-content">
                <div class="count_button">
                  <p>Compteur fréquentation</p>
                 <button class="increase"> + </button> 
                 <button class="decrease"> - </button> 
                   <div id="counter">0</div>
-                  <br><button class="reset" onclick="clearAll()"> reset </button> 
+                  <br><button class="reset" onclick="clearAll()"> RESET </button> 
                </div>
             </div>
           </div>
@@ -83,7 +79,7 @@
                 <button class="increase_velo"> + </button> 
                 <button class="decrease_velo"> - </button> 
                   <div id="counter_velo">0</div>
-                  <br><button class="reset" onclick="clearAllContent()"> reset </button> 
+                  <br><button class="reset" onclick="clearAllContent()"> RESET </button> 
               
             </div>
             
@@ -103,24 +99,24 @@
         <h2 class="title">Sensibilisation</h2>
         <div class="serv-content">
             <div class="card">
-                <div class="box" type= 'submit'>
-                <i class="fas fa-dog"></i>
-               
-                    
+                <div class="box1" type= 'button' id= "dog_counter" >
+                <i class="fas fa-dog"></i>           
                     <div class="text" >Sensi_chien</div>
-                   
                 </div>
             </div>
+
+
             <div class="card">
-                <div class="box">
+                <div class="box2" type= 'button' id= "gene_counter" >
                     <i class="fas fa-dove"></i>
                     
-                    <div class="text"   >Sensi_générale</div>
-                   
+                    <div class="text">Sensi_générale</div>
                 </div>
             </div>
+
+
             <div class="card">
-                <div class="box">
+                <div class="box3" type= 'button' id = " velo_counter" >
                     <i class="fas fa-bicycle"></i>
                     <div class="text">Sensi_vélo</div>
                     
@@ -130,9 +126,11 @@
             
            </div>
            
-        </div>
+        </div><br><button class="reset" onclick="clearAllContent()"> RESET </button>
+        <br> <button class="reset" id="show" onclick="ShowAllContent()"> SHOW </button>    
+        
     </div>
-    <div id="counter_dog">0</div> 
+    
 </section>
 
     <!-- footer section start -->
@@ -142,6 +140,7 @@
 
     <script src="./JS/script.js"></script>
     <script src="./JS/script2.js"></script>
+    <script src="./JS/script3.js"></script>
     
 </body>
 </html>
