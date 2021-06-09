@@ -3,7 +3,7 @@
 
 {
 "name": "AppGestionnaire",
-"short_name": "monappli",
+"short_name": "Surveillance",
 "start_url": ".",
 "scope": ".",
 "display": "standalone",
